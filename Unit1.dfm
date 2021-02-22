@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 370
-  Top = 175
+  Left = 829
+  Top = 281
   Width = 745
   Height = 450
   Caption = 'Form1'
@@ -4507,6 +4507,22 @@ object Form1: TForm1
       0000800000800000800000800000800000800000800000800000800000800000
       8000008000008000008000008000008000008000008000008000008000008000
       0080000080000080000080000080005BAD5B}
+  end
+  object Button1: TButton
+    Left = 200
+    Top = 248
+    Width = 345
+    Height = 41
+    Caption = 'Wygrana !!. Jeszcze raz ?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Visible = False
+    OnClick = Button1Click
   end
   object Timer_pilka: TTimer
     Interval = 15

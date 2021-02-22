@@ -31,6 +31,7 @@ __published:	// IDE-managed Components
         TImage *Image10;
         TImage *Image11;
         TImage *Image12;
+        TButton *Button1;
         void __fastcall Timer_pilkaTimer(TObject *Sender);
         void __fastcall lewyTimer(TObject *Sender);
         void __fastcall prawyTimer(TObject *Sender);
@@ -38,6 +39,7 @@ __published:	// IDE-managed Components
           TShiftState Shift);
         void __fastcall FormKeyUp(TObject *Sender, WORD &Key,
           TShiftState Shift);
+        void __fastcall Button1Click(TObject *Sender);
         
 private:	// User declarations
 public:		// User declarations
