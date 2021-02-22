@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 829
-  Top = 281
+  Left = 255
+  Top = 190
   Width = 745
   Height = 450
   Caption = 'Form1'
@@ -26,8 +26,8 @@ object Form1: TForm1
     Brush.Color = clMedGray
   end
   object b: TImage
-    Left = 424
-    Top = 304
+    Left = 216
+    Top = 104
     Width = 32
     Height = 32
     AutoSize = True

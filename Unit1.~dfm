@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 176
-  Top = 198
+  Left = 829
+  Top = 281
   Width = 745
   Height = 450
   Caption = 'Form1'
@@ -4522,6 +4522,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     Visible = False
+    OnClick = Button1Click
   end
   object Timer_pilka: TTimer
     Interval = 15

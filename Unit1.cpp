@@ -15,7 +15,17 @@ int do_wygranej =12;
 bool kolizja (TImage *pilka, TImage *cegla)
 {
 
-;
+if(pilka->Left>cegla ->Left - pilka -> Width &&
+   pilka -> Left + pilka -> Width <= cegla -> Left +cegla->Width &&
+   pilka ->Top <= cegla -> Top &&
+   pilka -> Top >= cegla ->Top - cegla -> Height)
+   {
+    return true;
+   }
+else
+{
+ return false;
+}
 
 }
 
