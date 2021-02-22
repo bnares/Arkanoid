@@ -1,16 +1,20 @@
 object Form1: TForm1
-  Left = 697
-  Top = 196
+  Left = 577
+  Top = 218
   Width = 870
   Height = 450
   Caption = 'Form1'
   Color = clBtnFace
+  UseDockManager = True
+  DockSite = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
   PixelsPerInch = 96
   TextHeight = 13
   object tlo: TShape
@@ -22,8 +26,8 @@ object Form1: TForm1
     Brush.Color = clMedGray
   end
   object b: TImage
-    Left = 576
-    Top = 56
+    Left = 424
+    Top = 304
     Width = 32
     Height = 32
     AutoSize = True
@@ -130,8 +134,8 @@ object Form1: TForm1
     Transparent = True
   end
   object p: TImage
-    Left = 360
-    Top = 128
+    Left = 392
+    Top = 352
     Width = 100
     Height = 20
     AutoSize = True
@@ -331,7 +335,21 @@ object Form1: TForm1
   object Timer_pilka: TTimer
     Interval = 15
     OnTimer = Timer_pilkaTimer
-    Left = 48
-    Top = 48
+    Left = 16
+    Top = 8
+  end
+  object lewy: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = lewyTimer
+    Left = 16
+    Top = 88
+  end
+  object prawy: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = prawyTimer
+    Left = 56
+    Top = 88
   end
 end

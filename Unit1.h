@@ -19,6 +19,18 @@ __published:	// IDE-managed Components
         TImage *p;
         TTimer *lewy;
         TTimer *prawy;
+        TImage *Image1;
+        TImage *Image2;
+        TImage *Image3;
+        TImage *Image4;
+        TImage *Image5;
+        TImage *Image6;
+        TImage *Image7;
+        TImage *Image8;
+        TImage *Image9;
+        TImage *Image10;
+        TImage *Image11;
+        TImage *Image12;
         void __fastcall Timer_pilkaTimer(TObject *Sender);
         void __fastcall lewyTimer(TObject *Sender);
         void __fastcall prawyTimer(TObject *Sender);
