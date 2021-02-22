@@ -8,10 +8,16 @@
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
 #include <ExtCtrls.hpp>
+#include <Graphics.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
+        TShape *tlo;
+        TImage *b;
+        TTimer *Timer_pilka;
+        TImage *p;
+        void __fastcall Timer_pilkaTimer(TObject *Sender);
         
 private:	// User declarations
 public:		// User declarations

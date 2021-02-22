@@ -17,7 +17,15 @@ __published:	// IDE-managed Components
         TImage *b;
         TTimer *Timer_pilka;
         TImage *p;
+        TTimer *lewy;
+        TTimer *prawy;
         void __fastcall Timer_pilkaTimer(TObject *Sender);
+        void __fastcall lewyTimer(TObject *Sender);
+        void __fastcall prawyTimer(TObject *Sender);
+        void __fastcall FormKeyDown(TObject *Sender, WORD &Key,
+          TShiftState Shift);
+        void __fastcall FormKeyUp(TObject *Sender, WORD &Key,
+          TShiftState Shift);
         
 private:	// User declarations
 public:		// User declarations
